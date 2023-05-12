@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Lato:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main_bg{
+    background: #000;
+    max-width: 1280px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-section{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book-img{
+    width: 40%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.form-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-text{
+    text-align: center;
+    margin: 70px 0 40px 0;
+}
+
+.form-text h1{
+    color: #fff;
+    font-family: 'Cinzel', serif;
+    font-size: 40px;
+}  
+
+form{
+    margin-left: 120px;
+    height: 70vh;
+}
+
+form div{
+    margin: 10px 10px;
+    width: 300px;
+    display: inline-block;
+}
+form div input {
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    background: none;
+    border: 1px solid #fff;
+    font-size: 20px;
+    color: #fff;
+    outline: none;
+    padding: 3px 0 3px 10px;
+    margin-top: 10px;
+}
+#people{
+    width: 104%;
+    font-family: 'Lato', sans-serif;;
+    background: none;
+    border: 1px solid #fff;
+    font-size: 20px;
+    color: #fff;
+    outline: none;
+    padding: 3px 0 3px 10px;
+    margin-top: 10px;
+}
+.main-form div span{
+    width: 100%;
+    font-family: 'Lato', sans-serif;;
+    color: #fff;
+    font-size: 25px;
+}
+
+#submit{
+    width: 100%;
+    text-align: center;
+}
+#submit input{
+    font-family: 'Lato', sans-serif;
+    width: 200px;
+    background-color: rgb(2, 69, 14) !important;
+    color: #fff !important;
+    transition: all .3s;
+    border: none !important;
+}
+#submit input:hover{
+    font-family: 'Lato', sans-serif;
+    width: 200px;
+    background-color: black !important;
+    color: #fff !important;
+}
+#submit input:active{
+    font-size: 19px;
+    background-color: rgb(46, 20, 5) !important;
+    color: #fff !important;
+}
+
+
+@media screen and (max-width:710px) {
+    .main-form{
+        text-align: center;
+    }
+}

@@ -1,0 +1,1030 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="/public/asset/favicon.png" type="image/x-icon">
+
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+
+    <!--=============== BOXICONS ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="/public/css/style.css">
+
+    <!--=============== google font ===============-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Lato&display=swap" rel="stylesheet">
+
+    <title>Responsive E-commerce website</title>
+</head>
+
+<body>
+    <!--==================== PRELOADER ====================-->
+    
+    <div class="preload" data-preaload>
+        <div class="circle"></div>
+        <p class="text">TMAX Chefy</p>
+    </div>
+  
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                TMAX Chefy <img src="./public/asset/logo.png" alt="Logo">
+            </a>
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="bx bx-home-alt-2"></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="bx bx-building-house"></i>
+                            <span>About us</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#menu" class="nav__link">
+                            <i class='bx bxs-food-menu'></i>
+                            <span>Menu</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#team" class="nav__link">
+                            <i class='bx bxl-microsoft-teams'></i>
+                            <span>Team</span>
+                        </a>
+                    </li>
+                    
+                    <li class="nav__item">
+                        <a href="#footer" class="nav__link">
+                            <i class="bx bx-phone"></i>
+                            <span>Contact</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div>
+                    <a href="./login.html" class="nav-btn nav__button">Login</a>
+                    <a href="./signup.html" class="nav-btn nav__button">Sign up</a>
+                <a href="./Responsive-Booking-Form--main/index.html" class="button nav__button">Reservation</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- =================== hero ============================= -->
+        <section class="hero text-center" aria-label="home" id="home">
+        
+            <ul class="hero-slider" data-hero-slider>
+        
+                <li class="slider-item active" data-hero-slider-item>
+        
+                    <div class="slider-bg">
+                        <img src="./public/asset/hero-slider-1.jpg" width="1880" height="950" alt="" class="img-cover">
+                    </div>
+        
+                    <h1 class="display-1 hero-title slider-reveal">
+                        For the love of <br>
+                        delicious food
+                    </h1>
+        
+                    <p class="body-2 hero-text slider-reveal">
+                        Come with family & feel the joy of mouthwatering food
+                    </p>
+        
+                    <a href="#menu" class="btn btn-primary slider-reveal">
+                        <span class="text text-1">View Our Menu</span>
+        
+                        <span class="text text-2" aria-hidden="true">View Our Menu</span>
+                    </a>
+        
+                </li>
+        
+                <li class="slider-item" data-hero-slider-item>
+        
+                    <div class="slider-bg">
+                        <img src="./public/asset/hero-slider-2.jpg" width="1880" height="950" alt="" class="img-cover">
+                    </div>
+        
+                    <h1 class="display-1 hero-title slider-reveal">
+                        Flavors Inspired by <br>
+                        the Seasons
+                    </h1>
+        
+                    <p class="body-2 hero-text slider-reveal">
+                        Come with family & feel the joy of mouthwatering food
+                    </p>
+        
+                    <a href="#menu" class="btn btn-primary slider-reveal">
+                        <span class="text text-1">View Our Menu</span>
+        
+                        <span class="text text-2" aria-hidden="true">View Our Menu</span>
+                    </a>
+        
+                </li>
+        
+                <li class="slider-item" data-hero-slider-item>
+        
+                    <div class="slider-bg">
+                        <img src="./public/asset/hero-slider-3.jpg" width="1880" height="950" alt="" class="img-cover">
+                    </div>
+        
+                    <h1 class="display-1 hero-title slider-reveal">
+                        Where every flavor <br>
+                        tells a story
+                    </h1>
+        
+                    <p class="body-2 hero-text slider-reveal">
+                        Come with family & feel the joy of mouthwatering food
+                    </p>
+        
+                    <a href="#menu/" class="btn btn-primary slider-reveal">
+                        <span class="text text-1">View Our Menu</span>
+        
+                        <span class="text text-2" aria-hidden="true">View Our Menu</span>
+                    </a>
+        
+                </li>
+        
+            </ul>
+        
+            <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+                <ion-icon name="chevron-back"></ion-icon>
+            </button>
+        
+            <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+                <ion-icon name="chevron-forward"></ion-icon>
+            </button>
+        </section>
+        <!-- =================== menu ============================= -->
+
+        <section class="container menu-div" id="menu">
+            <div class="title">
+                <h1>Our Featured<span>Menu</span></h1>
+            </div>
+            <div class="menu-section">
+                <ul class="filter">
+                    <button class="filter-link active">All</button>
+                    <button class="filter-link">Local Food</button>
+                    <button class="filter-link">Pasta</button>
+                    <button class="filter-link">Dessert</button>
+                    <button class="filter-link">Roast</button>
+                    <button class="filter-link">Foreign Food</button>
+                </ul>
+            </div>
+        
+            <div class="menu">
+            
+                <div class="menu_box grid">
+                    <div class="menu_card ">
+            
+                        <div class="menu_image">
+                            <img src="./image/Amala & Egusi_1.jpeg">
+                        </div>
+            
+                        <div class="small_card">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+            
+                        <div class="menu_info">
+                            <h2>Amala</h2>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda voluptates
+                            </p>
+                            <h3>#2,000.00</h3>
+                            <div class="menu_icon">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <a href="./Responsive-Booking-Form--main/index.html" class="menu_btn">Order Now</a>
+                        </div>
+            
+                    </div>
+            
+                    <div class="menu_card">
+            
+                        <div class="menu_image">
+                            <img src="./image/Baens & Bread.jpeg">
+                        </div>
+            
+                        <div class="small_card">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+            
+                        <div class="menu_info">
+                            <h2>Bread & Beans</h2>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda voluptates
+                            </p>
+                            <h3>#2,000.00</h3>
+                            <div class="menu_icon">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <a href="./Responsive-Booking-Form--main/index.html" class="menu_btn">Order Now</a>
+                        </div>
+            
+                    </div>
+            
+                    <div class="menu_card">
+            
+                        <div class="menu_image">
+                            <img src="./image/Efo_bg_2.png">
+                        </div>
+            
+                        <div class="small_card">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+            
+                        <div class="menu_info">
+                            <h2>Efo</h2>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda voluptates
+                            </p>
+                            <h3>#2,000.00</h3>
+                            <div class="menu_icon">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <a href="./Responsive-Booking-Form--main/index.html" class="menu_btn">Order Now</a>
+                        </div>
+            
+                    </div>
+            
+                    <div class="menu_card">
+            
+                        <div class="menu_image">
+                            <img src="./image/Egusi-soup-goat-meat-Pounded_1.jpg">
+                        </div>
+            
+                        <div class="small_card">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+            
+                        <div class="menu_info">
+                            <h2>Egusi soup goat meat</h2>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda voluptates
+                            </p>
+                            <h3>#2,000.00</h3>
+                            <div class="menu_icon">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <a href="./Responsive-Booking-Form--main/index.html" class="menu_btn">Order Now</a>
+                        </div>
+            
+                    </div>
+            
+                    <div class="menu_card">
+            
+                        <div class="menu_image">
+                            <img src="./image/Rice.jpg">
+                        </div>
+            
+                        <div class="small_card">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+            
+                        <div class="menu_info">
+                            <h2>Rice</h2>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda voluptates
+                            </p>
+                            <h3>#2,000.00</h3>
+                            <div class="menu_icon">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <a href="./Responsive-Booking-Form--main/index.html" class="menu_btn">Order Now</a>
+                        </div>
+            
+                    </div>
+            
+                    <div class="menu_card">
+            
+                        <div class="menu_image">
+                            <img src="./image/florence-food.png">
+                        </div>
+            
+                        <div class="small_card">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+            
+                        <div class="menu_info">
+                            <h2>florence food</h2>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda voluptates
+                            </p>
+                            <h3>#2,000.00</h3>
+                            <div class="menu_icon">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <a href="./Responsive-Booking-Form--main/index.html" class="menu_btn">Order Now</a>
+                        </div>
+            
+                    </div>
+            
+                    <div class="menu_card">
+            
+                        <div class="menu_image">
+                            <img src="./image/Efo_bg_3.png">
+                        </div>
+            
+                        <div class="small_card">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+            
+                        <div class="menu_info">
+                            <h2>EFo</h2>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda voluptates
+                            </p>
+                            <h3>#2,000.00</h3>
+                            <div class="menu_icon">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <a href="./Responsive-Booking-Form--main/index.html" class="menu_btn">Order Now</a>
+                        </div>
+            
+                    </div>
+            
+                    <div class="menu_card">
+            
+                        <div class="menu_image">
+                            <img src="./image/food-displayed-party.png">
+                        </div>
+            
+                        <div class="small_card">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+            
+                        <div class="menu_info">
+                            <h2>Food Varieties</h2>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda voluptates
+                            </p>
+                            <h3>#2,000.00</h3>
+                            <div class="menu_icon">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <a href="./Responsive-Booking-Form--main/index.html" class="menu_btn">Order Now</a>
+                        </div>
+            
+                    </div>
+            
+                    <div class="menu_card">
+            
+                        <div class="menu_image">
+                            <img src="./image/florence-food.png">
+                        </div>
+            
+                        <div class="small_card">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+            
+                        <div class="menu_info">
+                            <h2>florence food</h2>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda voluptates
+                            </p>
+                            <h3>#2,000.00</h3>
+                            <div class="menu_icon">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <a href="./Responsive-Booking-Form--main/index.html" class="menu_btn">Order Now</a>
+                        </div>
+            
+                    </div>
+            
+                    <div class="menu_card">
+            
+                        <div class="menu_image">
+                            <img src="./image/Efo_bg.png">
+                        </div>
+            
+                        <div class="small_card">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+            
+                        <div class="menu_info">
+                            <h2>Efo</h2>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda voluptates
+                            </p>
+                            <h3>#2,000.00</h3>
+                            <div class="menu_icon">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <a href="./Responsive-Booking-Form--main/index.html" class="menu_btn">Order Now</a>
+                        </div>
+            
+                    </div>
+            
+                    <div class="menu_card">
+            
+                        <div class="menu_image">
+                            <img src="./image/Egusi-soup-goat-meat-Pounded_1.jpg">
+                        </div>
+            
+                        <div class="small_card">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+            
+                        <div class="menu_info">
+                            <h2>Egusi soup</h2>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda voluptates
+                            </p>
+                            <h3>#2,000.00</h3>
+                            <div class="menu_icon">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <a href="./Responsive-Booking-Form--main/index.html" class="menu_btn">Order Now</a>
+                        </div>
+            
+                    </div>
+            
+                    <div class="menu_card">
+            
+                        <div class="menu_image">
+                            <img src="./image/food-displayed-party.png">
+                        </div>
+            
+                        <div class="small_card">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+            
+                        <div class="menu_info">
+                            <h2>FRied Rice</h2>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda voluptates
+                            </p>
+                            <h3>#2,000.00</h3>
+                            <div class="menu_icon">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <a href="./Responsive-Booking-Form--main/index.html" class="menu_btn">Order Now</a>
+                        </div>
+            
+                    </div>
+            
+                </div>
+            
+            </div>
+        </section>
+
+
+
+        <!-- =================== about ============================= -->
+        
+        <section class="section-about about text-center" aria-labelledby="about-label" id="about">
+            <div class="title">
+                <h1>Our <span>Story</span></h1>
+            </div>
+            <div class="container-about">
+                <div class="container">
+                    <div class="about-content">
+            
+                        <h2 class="headline-1">Every Flavor Tells a Story</h2>
+            
+                        <p class="section-text">
+                            Lorem Ipsum is simply dummy text of the printingand typesetting industry lorem Ipsum has been the
+                            industrys standard dummy text ever since the when an unknown printer took a galley of type and scrambled
+                            it to make a type specimen book It has survived not only five centuries, but also the leap into.
+                        </p>
+            
+                        <div class="contact-label">Book Through Call</div>
+            
+                        <a href="tel:+804001234567" class="body-1">+234 (81) 123 4567</a>
+
+                        <button class="button">Read More</button>
+            
+                    </div>
+            
+                    <figure class="about-banner">
+            
+                        <img src="./image/food-displayed-party.png" width="570" height="570" loading="lazy" alt="about banner"
+                            class="w-100" data-parallax-item data-parallax-speed="1" />
+            
+                        <div class="abs-img abs-img-1 has-before" data-parallax-item data-parallax-speed="1.75">
+                            <img src="./images/main-img.jpg" width="285" height="285" loading="lazy" alt=""
+                                class="w-100">
+                        </div>
+                    </figure>
+            
+                    <img src="./public/asset/shape-3.png" width="197" height="194" loading="lazy" alt="" class="shape" />
+                </div>
+            </div>
+        </section>
+
+
+        <!-- =================== gallery ============================= -->
+        <section class="gallery container">
+            <div class="containers">
+            
+                <div class="title">
+                    <h1>Dessert<span>Gallery</span></h1>
+                </div>
+
+                <div class="box">
+            
+                    <div class="dream">
+                        <img src="./public/asset/pexels-ash-376464.jpg">
+                        <img src="./public/asset/gallary_4.jpg">
+                        <img src="./public/asset/pexels-figen-kokol-15490120.jpg">
+            
+                    </div>
+            
+                    <div class="dream">
+                        <img src="./public/asset/pasta.jpg">
+                        <img src="./public/asset/gallary_1.jpg">
+                        <img src="./public/asset/gallary_3.jpg">
+                        
+            
+                    </div>
+            
+                    <div class="dream">
+                        <img src="./public/asset/gallary_5.jpg">
+                        <img src="./public/asset/gallary_6.jpg">
+                        <img src="./public/asset/gallery2.jpg">
+            
+                    </div>
+            
+                </div>
+            
+            </div>
+        </section>
+
+        <!-- =================== end of gallery ============================= -->
+        <!-- ---------------------Award & Recognition---------------------- -->
+        <section id="award" class="recog">
+            <div id="head">
+                <div class="sechead">
+                    <h5>Awards & Recognition</h5>
+                </div>
+                <br>
+                <br>
+                <div class="sectitle">
+                    <h1>Our Laurels</h1>
+                </div>
+                <br>
+                <br>
+                <br>
+            </div>
+            <div id="container">
+                <div class="textarea">
+                    <div class="secbody">
+                        <div class="body1">
+                            <div id="popup-container">
+                                <div class="pop-content">
+                                    <img src="./images/out.jpg" alt="" id="popup-img">
+                                    <div id="popup-text">
+                                        <h4>Lorem ipsum dolor sit amet.</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita nemo placeat nesciunt culpa, eveniet ut quis iusto fugit earum molestias.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="mainb">
+                                <img src="./images/award.png" alt="" class="award" width="30" height="30">
+                                <div>
+                                    <a href="#" class="popup-link"><h4>Bib Gourmand</h4></a>
+                                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <div class="body2">
+                            <div id="popup-container">
+                                <div class="pop-content">
+                                    <img src="#" alt="" id="popup-img">
+                                    <div id="popup-text">
+                                        <h4>Lorem ipsum dolor sit amet.</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita nemo placeat nesciunt culpa, eveniet ut quis iusto fugit earum molestias.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mainb">
+                                <img src="./images/award.png" alt="" class="award" width="30" height="30">
+                                <div>
+                                    <a href="#" class="popup-link"><h4>Rising Star</h4></a>
+                                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <div class="body3">
+                            <div id="popup-container">
+                                <div class="pop-content">
+                                    <img src="#" alt="" id="popup-img">
+                                    <div id="popup-text">
+                                        <h4>Lorem ipsum dolor sit amet.</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita nemo placeat nesciunt culpa, eveniet ut quis iusto fugit earum molestias.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mainb">
+                                <img src="./images/award.png" alt="" class="award" width="30" height="30">
+                                <div>
+                                    <a href="#" class="popup-link"><h4>AA Hospitality</h4></a>
+                                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <div class="body3">
+                            <div id="popup-container">
+                                <div class="pop-content">
+                                    <img src="#" alt="" id="popup-img">
+                                    <div id="popup-text">
+                                        <h4>Lorem ipsum dolor sit amet.</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita nemo placeat nesciunt culpa, eveniet ut quis iusto fugit earum molestias.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mainb">
+                                <img src="./images/award.png" alt="" class="award" width="30" height="30">
+                                <div>
+                                    <a href="#" class="popup-link"><h4>Outstanding Chef</h4></a>
+                                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="imgarea">
+                    <div class="imgarea1">
+                        <a href="./images/main-img.jpg"><img src="./images/main-img.jpg" alt="" class="img"></a>
+                    </div>
+                </div>
+            </div>
+        
+        
+        
+            <script src="./script.js"></script>
+        
+        </section>
+        <!-- ----------------End of award & Recognition---------------------- -->
+        <!-- =================== team ============================= -->
+        <section id="team">
+            <div class="team container">
+                <div class="title">
+                    <h1>Our<span>Team</span></h1>
+                </div>
+            
+                <div class="team_box grid">
+                    <div class="profile">
+                        <img src="./abd1.jpg">
+            
+                        <div class="info">
+                            <h2 class="name">Chef</h2>
+                            <p class="bio">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            
+                            <div class="team_icon">
+                                <i class="fa-brands fa-facebook-f"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                            </div>
+            
+                        </div>
+            
+                    </div>
+            
+                    <div class="profile">
+                        <img src="./chef1.png">
+            
+                        <div class="info">
+                            <h2 class="name">Chef</h2>
+                            <p class="bio">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            
+                            <div class="team_icon">
+                                <i class="fa-brands fa-facebook-f"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                            </div>
+            
+                        </div>
+            
+                    </div>
+            
+                    <div class="profile">
+                        <img src="./chef2.jpg">
+            
+                        <div class="info">
+                            <h2 class="name">Chef</h2>
+                            <p class="bio">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            
+                            <div class="team_icon">
+                                <i class="fa-brands fa-facebook-f"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                            </div>
+            
+                        </div>
+            
+                    </div>
+            
+                    <div class="profile">
+                        <img src="./chef4.jpg">
+            
+                        <div class="info">
+                            <h2 class="name">Chef</h2>
+                            <p class="bio">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            
+                            <div class="team_icon">
+                                <i class="fa-brands fa-facebook-f"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                            </div>
+            
+                        </div>
+            
+                    </div>
+            
+                </div>
+            </div>
+        </section>
+        <section class="team-2">
+            <div class="title">
+                <h1>Chef's<span>word</span></h1>
+            </div>
+            <div class="app__bg">
+
+                <div class="app__wrapper_info">
+
+                    <div class="team-wrapper">
+                        <img src='./public/asset/chef.png' alt="chef_image" />
+                    </div>
+
+                    <div class="app__chef-content">
+                        <div class="team-content-2">
+                            <h1 class="headtext__cormorant">What we believe in</h1>
+
+                            <div class="app__chef">
+                                <img src='./public/asset/quote.png' alt="quote_image" />
+                                <p class="p__opensans">Lorem ipsum dolor sit amet, consectetur adipiscing elit auctor sit .</p>
+                            </div>
+                            <p class="p__opensans"> auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla
+                                scelerisque scelerisque congue ac consequat, aliquam molestie lectus eu. Congue iaculis integer
+                                curabitur semper sit nunc. </p>
+                        </div>
+                        <div class="app__chef-sign">
+                            <p>Precious Adeleye</p>
+                            <p class="p__opensans">Chef & Founder</p>
+                            <!-- <img src='./public/asset/sign.png' alt="sign_image"/> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =================== end of team ============================= -->
+
+        <!-- =================== review section ============================= -->
+        <section class="review-section container section ">
+            <div class="title">
+                <h1>what our customers<span>says about us</span></h1>
+            </div>
+            <div class="contain">
+                <div class="review-container grid">
+                    <div class="review-card">
+                        <div class="user-dp" data-rating="4.9">
+                            <img src="./Dr kay.jpg" alt="">
+                        </div>
+                        <h2 class="review-title">beat quality more than my expectation</h2>
+                        <p class="review">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus iusto harum neque modi
+                            numquam fuga!
+                        </p>
+                    </div>
+            
+                    <div class="review-card">
+                        <div class="user-dp" data-rating="4.9">
+                            <img src="./Elijah.jpg" alt="">
+                        </div>
+                        <h2 class="review-title">on time delivery with best packaging</h2>
+                        <p class="review">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus iusto harum neque modi
+                            numquam fuga!
+                        </p>
+                    </div>
+            
+                    <div class="review-card">
+                        <div class="user-dp" data-rating="4.9">
+                            <img src="./sesi.jpg" alt="">
+                        </div>
+                        <h2 class="review-title">very helpful customer support</h2>
+                        <p class="review">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus iusto harum neque modi
+                            numquam fuga!
+                        </p>
+                    </div>
+            
+                    <div class="review-card">
+                        <div class="user-dp" data-rating="4.9">
+                            <img src="./james.jpg" alt="">
+                        </div>
+                        <h2 class="review-title">very easy to refund/return products</h2>
+                        <p class="review">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus iusto harum neque modi
+                            numquam fuga!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+                
+        <!--==================== FOOTER ====================-->
+        <div id="footer">
+            <div id="section1">
+                <div id="newsletter">
+                    <div class="icon">
+                        <img src="./news.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h1>Subscribe To Our <span>Newsletter</span></h1>
+                        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, voluptas!</P>
+                    </div>
+                    <form action="">
+                        <input type="email" id="Email" placeholder="your email..." required>
+                        <button>Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div>
+                        <a href="#" class="footer__logo">
+                            Chefy <i class="bx bxs-home-alt-2"></i>
+                        </a>
+                        <p class="footer__description">
+                            Our vision is to make all people <br>
+                            eat delicious and healthy.
+                        </p>
+                </div>
+        
+                
+                <div>
+                        <h3 class="footer__title">
+                            About
+                        </h3>
+        
+                        <ul class="footer__links">
+                            <li>
+                                <a href="" class="footer__link">About Us</a>
+                            </li>
+                            <li>
+                                <a href="" class="footer__link">Features</a>
+                            </li>
+                            <li>
+                                <a href="" class="footer__link">News & Blog</a>
+                            </li>
+                        </ul>
+                </div>
+        
+                <div>
+                        <h3 class="footer__title">
+                            Company
+                        </h3>
+        
+                        <ul class="footer__links">
+                            <li>
+                                <a href="" class="footer__link">How We Work?</a>
+                            </li>
+                            <li>
+                                <a href="" class="footer__link">Capital</a>
+                            </li>
+                            <li>
+                                <a href="" class="footer__link">Security</a>
+                            </li>
+                        </ul>
+                    </div>
+        
+                    <div>
+                <h3 class="footer__title">
+                            Support
+                    </h3>
+        
+                    <ul class="footer__links">
+                            <li>
+                                <a href="" class="footer__link">FAQs</a>
+                            </li>
+                            <li>
+                                <a href="" class="footer__link">Support center</a>
+                            </li>
+                            <li>
+                                <a href="" class="footer__link">Contact Us</a>
+                            </li>
+                        </ul>
+                </div>
+        
+                <div>
+                    <h3 class="footer__title">
+                            Follow us
+                    </h3>
+        
+                    <ul class="footer__social">
+                            <li>
+                                <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                                    <i class="bx bxl-facebook-circle"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                                    <i class="bx bxl-instagram-alt"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.pinterest.com/" target="_blank" class="footer__social-link">
+                                    <i class="bx bxl-pinterest"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+                
+            </div>
+                    
+            <div class="footer__info container">
+                <span class="footer__copy">
+                     Project T-max Group 1 |  All right reserved &nbsp;
+                </span>
+        
+                <div class="footer__privacy">
+                    <a href="">Terms & Agreements </a>
+                    <a href=""> Privacy Policy</a>
+                </div>
+            </div>
+        </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="bx bx-chevrons-up"></i>
+    </a>
+
+
+    <script src="./public/javascript/Data.js"></script>
+    <script src="./public/javascript/main.js"></script>
+</body>
+</html>
